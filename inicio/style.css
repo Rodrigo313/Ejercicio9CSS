@@ -60,16 +60,15 @@ nav ul a {
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-around;
-        flex: 0 2 50%;
     }
 }
 
 @media screen and (max-width:768px){
-    .icons ul{
-        display: list-item;
+    .iconos ul{
+        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
+        text-align: center;
     }
 }
 
