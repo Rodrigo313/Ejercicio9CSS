@@ -73,10 +73,36 @@ nav ul a {
 }
 
 /** Multinivel **/
+@media screen and (min-width:768px){
+    .dropdown ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        position: relative;
+    }
+    .dropdown ul li ul{
+        display: none;
+        position: absolute;
+    }
+}
 
+@media screen and (max-width:768px){
+    .dropdown ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .dropdown ul li ul li:hover{
+        background-color: #ff5e62;
+    }
+}
 
 /** Redes Socialaes**/
-
+#iconos ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
 
 
 /* Social y dropdown*/
