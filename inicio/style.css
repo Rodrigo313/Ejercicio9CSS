@@ -85,6 +85,13 @@ nav ul a {
         display: none;
         position: absolute;
     }
+
+    .dropdown:hover ul li ul{
+        display: flex;
+        background-color: #ff5e62;
+        flex-direction: column;
+        position: absolute;
+    }
     
 }
 
@@ -127,6 +134,12 @@ nav ul a {
     }
     #iconos2 ul li ul{
         display: none;
+        position: absolute;
+    }
+    #iconos2:hover ul li ul{
+        display: flex;
+        background-color: #ff5e62;
+        flex-direction: column;
         position: absolute;
     }
 }
