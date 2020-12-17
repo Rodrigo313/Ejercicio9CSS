@@ -97,15 +97,30 @@ nav ul a {
     }
 }
 
-/** Redes Socialaes**/
+/** Redes Sociales**/
 #iconos ul{
     display: flex;
     flex-direction: row;
-    justify-content: right;
+    justify-content: flex-end;   
 }
 
 
 /* Social y dropdown*/
+#iconos2 #iconos{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;   
+}
 
-
-
+@media screen and (min-width:768px){
+    #iconos2 ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        position: relative;
+    }
+    #iconos2 ul li ul{
+        display: none;
+        position: absolute;
+    }
+}
